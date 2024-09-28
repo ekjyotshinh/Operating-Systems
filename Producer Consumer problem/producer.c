@@ -65,6 +65,7 @@ int main(int argc, char* argv[])
                 exit(1);
         }else if(bufSize<2){
                 printf("Buffere size too small.\n");
+                exit(1);
         }
 
         // Function that creates a shared memory segment and initializes its header
